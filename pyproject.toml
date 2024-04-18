@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MailCraft"
+version = "0.0.1"
+dependencies = [
+    "requests",
+    "smtplib",
+]
+[metadata]
+long_description = file: README.md
+long_description_content_type = text/markdown
